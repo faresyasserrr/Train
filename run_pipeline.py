@@ -26,7 +26,7 @@ One script, every step in order:
     python run_pipeline.py --smoke         a few minutes, checks everything runs
 
 Requirements: Python 3.10+, a CUDA GPU, torch, numpy, scipy, scikit-learn
-    (pip install torch numpy scipy scikit-learn). Data and checkpoints are
+    (pip install -r requirements.txt). Data and checkpoints are
     stored with Git LFS: run `git lfs pull` after cloning.
 
 Inputs (nothing else is read):
